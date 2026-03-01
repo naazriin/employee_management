@@ -24,6 +24,7 @@ Authentication: JWT (JSON Web Tokens) / Token-based
 🔧 Installation & Setup
 1. Clone the repository:
    git clone https://github.com/naazriin/employee_management.git
+
    cd employee_management
 2. Create a virtual environment:
    python -m venv venv
