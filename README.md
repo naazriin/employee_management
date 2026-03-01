@@ -29,8 +29,7 @@ Authentication: JWT (JSON Web Tokens) / Token-based
 2. Create a virtual environment:
    
    python -m venv venv
-   source venv/bin/activate
-   # On Windows: venv\Scripts\activate
+   source venv/bin/activate # On Windows: venv\Scripts\activate
 4. Install dependencies:
    
    pip install -r requirements.txt
