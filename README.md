@@ -27,15 +27,22 @@ Authentication: JWT (JSON Web Tokens) / Token-based
 
    cd employee_management
 2. Create a virtual environment:
+   
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install dependencies:
+   source venv/bin/activate
+   # On Windows: venv\Scripts\activate
+4. Install dependencies:
+   
    pip install -r requirements.txt
-4. Database Setup:
+6. Database Setup:
+   
    Configure your PostgreSQL credentials in settings.py and run migrations:
+   
    python manage.py makemigrations
+   
    python manage.py migrate
-5. Run the server:
+8. Run the server:
+   
    python manage.py runserver
 
    🛰️ API Endpoints (Quick Look)
